@@ -1,0 +1,87 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    background-image: url("\vector-watercolour-abstract-background.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+  }
+
+  .header {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .header img {
+    max-width: 200px; /* Adjust the max-width as needed */
+  }
+  
+  .login-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    border-color: #91DDF2;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center; /* Center the login container horizontally */
+    align-items: center;
+  }
+  
+  .login-form {
+    max-width: 300px;
+    margin: 0 auto;
+  }
+  
+  h2 {
+    text-align: center;
+    color: #5B81AE;
+    font-size: 3em;
+  }
+  
+  input[type="email"],
+  input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  button[type="button"] {
+    width: 100%;
+    background-color: white;
+    color: black;
+    font-size:15px;
+    font-weight: bold;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: 2px solid transparent;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button[type="button"]:hover {
+    border-color: #fff;
+  }
+  
+  .button-bg-change {
+    background-image: url('https://mir-s3-cdn-cf.behance.net/project_modules/disp/95cf9f86301785.5d9514cc6f932.gif');
+    background-size: cover;
+    animation: changeBg 3s forwards;
+  }
+  
+  @keyframes changeBg {
+    from {
+      background-color: white;
+    }
+    to {
+      background-color: transparent;
+    }
+  }
+  
